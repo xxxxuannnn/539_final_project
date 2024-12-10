@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .flex-container {
+      display: flex;
+      justify-content: center; /* 使所有元素水平居中 */
+      align-items: center; /* 垂直居中 */
+      background-color: DodgerBlue;
+      height: 200px; /* 设置高度 */
+      width: 100%; /* 容器占满全屏宽度 */
+    }
+
+    .flex-container > div {
+      background-color: #f1f1f1;
+      width: 100px;
+      height: 75px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+      transform: translateX(150%);
+    }
+
+  </style>
+</head>
+<body>
+
+<h1>Flexbox with Items Shifted Left</h1>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+</div>
+
+</body>
+</html>
